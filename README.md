@@ -90,6 +90,7 @@ The core workflow can be visualized as a cyclical process:
 6.3. Flow Diagrams
 The following diagrams illustrate the core workflows of HeroLoop.
 1. HeroLoop Core Workflow
+```mermaid
 graph TD
   A[User Prompt] --> B{Initial Matrix Check}
   B -->|No/Low Match| C[Determine Candidates]
@@ -137,8 +138,9 @@ graph TD
   style M fill:#ADD8E6
   style N fill:#FFDAB9
   style Z fill:#E0BBE4
-
+```
 2. Persona Evaluation Process
+```mermaid
 graph TD
   A[Candidate Pool] --> B[Distribute to Personas]
 
@@ -184,8 +186,9 @@ graph TD
   style K fill:#FFDAB9
   style L fill:#98FB98
   style M fill:#FF6347
-
+```
 3. Matrix Memory Lifecycle
+```mermaid
 graph TD
   subgraph Memory_System
     MMDB[(Matrix DB)]
@@ -240,7 +243,7 @@ graph TD
   style P fill:#DA70D6
   style Q fill:#FFF
   style R fill:#FF6347
-
+```
 6.4. Pseudocode Snippets
 # Pseudocode for Dynamic Candidate Source Distribution
 def distribute_sources(x, user_input, matrix_hits):
