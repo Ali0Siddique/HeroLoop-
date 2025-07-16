@@ -1,4 +1,4 @@
-# HeroLoop-
+# HeroLoop 
 A llm loop
 Whitepaper: HeroLoop: A Meta-Cognitive Engine for Optimal Agent Decision-Making
 1. Title Page
