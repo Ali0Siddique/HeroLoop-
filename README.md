@@ -1,6 +1,5 @@
 ![IMG_20250716_094442.jpg](https://github.com/user-attachments/assets/68ae2022-f2f5-45c2-8532-2ae7f9a93819)
-   # HeroLoop 
-A llm loop
+  # HeroLoop 
 Whitepaper: HeroLoop: A Meta-Cognitive Engine for Optimal Agent Decision-Making
 1. Title Page
 Project Name: HeroLoop: A Meta-Cognitive Engine for Optimal Agent Decision-Making
